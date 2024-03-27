@@ -1,0 +1,13 @@
+<?php
+	$i=3;
+	$j="30";
+	var_dump($i==$j."<br>");
+	var_dump($i===$j)."<br>";
+	var_dump($i!=$j);
+	var_dump($i<>$j);
+	var_dump($i!==$j);
+	var_dump($i>$j);
+	var_dump($i<$j);
+	var_dump($i>=$j);
+	var_dump($i<=$j);
+?>
