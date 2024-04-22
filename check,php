@@ -1,0 +1,60 @@
+<?php
+	$con=mysqli_connect("localhost","root","","mail");
+	if(isset($_POST['txtunm']))
+	{
+		$unm=$_POST['username'];
+		$sql="select *from`user_login` where `username`='$unm' and `passsword`='$pwd'";
+		$res=mysqli_query($con,$sql);
+		$count=mysqli_num_rows($res);
+		if($count==1)
+		{
+			echo"D";
+		}
+		else
+		{
+			echo"A";
+		}
+?>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
