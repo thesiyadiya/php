@@ -1,0 +1,22 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready (function()
+{
+	$("#demo").css("height","150px");
+	$("#demo").css("width","150px");
+	$("#height").click(function()
+	{
+		alert($("#demo").innerHeight());
+	});
+	$("#width").click(function()
+	{
+		alert($("#demo").innerWidth());
+	});
+});
+</script>
+<div id="demo" style="background-color:green;">
+	<b>Hello</b>
+</div>
+<button id="height">Get Inner Height</br></button>
+<button id="width">Get Inner width</button>
+

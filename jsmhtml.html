@@ -1,0 +1,16 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>
+<script>
+$(document).ready(function()
+{
+	$("#demo").css("height","150px");
+	$("#demo").css("width","150px");
+	$("#html").click(function()
+	{
+		$("#demo").html("Hello</br>world!");
+	});
+});
+</script>
+<div id="demo" style="background-color:green;">
+<b>hello</b>
+</div>
+<button id="html">change HTML</button>
