@@ -1,4 +1,4 @@
-<form action="select.php" method="POST">
+<form action="insert.php" method="POST">
 <input type="text" name="txtnm" placeholder="Enter name">
 <input type="text" name="txtpw" placeholder="Enter password">
 <input type="submit" value="submit" >
@@ -16,7 +16,7 @@ if(isset($_POST['txtnm']))
 {
 	$nm=$_POST['txtnm'];
 	$pw=$_POST['txtpw'];
-	$sql="INSERT INTO `user`( `name`, `password`) VALUES ('$nm','$pw')";
+	$sql="INSERT INTO `insert`( `name`, `password`) VALUES ('$nm','$pw')";
 	$res=mysqli_query($conn,$sql);
 }
 ?>

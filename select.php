@@ -1,6 +1,6 @@
 <?php
 $conn=mysqli_connect("localhost","root","","diya");
-	$sql="SELECT  `name`, `password` FROM `user` ";
+	$sql="SELECT  `name`, `password` FROM `insert` ";
 	$res=mysqli_query($conn,$sql);
 	$num=mysqli_num_rows($res);
 	echo $num."<br>";
