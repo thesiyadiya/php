@@ -88,7 +88,7 @@
 
                         <div class="col-lg-2 col-md-3 col-4">
                             <div class="logo">
-                                <a href="index.html"><img src="images/logo/logo-ash.png" alt=""></a>
+                                <a href="index.php"><img src="images/logo/logo-ash.png" alt=""></a>
                             </div>
                         </div>
 
@@ -184,6 +184,7 @@
                                     <nav>
                                         <ul>
                                             <li class="active">
+                                               
                                                 <a href="#">Home <i class="ion-chevron-down"></i></a>
                                                 <ul class="sub_menu">
                                                     <li><a href="#">Banner</a></li>
@@ -195,7 +196,7 @@
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">Category <i class="ion-chevron-down"></i></a>
+                                                <a href="category.php">Category <i class="ion-chevron-down"></i></a>
                                                 <ul class="mega_menu">
                                                     <li>
                                                         <a href="#">Women</a>
@@ -230,7 +231,7 @@
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="#">Uncut Diamonds <i class="ion-chevron-down"></i></a>
+                                                <a href="uncut.php">Uncut Diamonds <i class="ion-chevron-down"></i></a>
                                                 <ul class="sub_menu pages">
                                                     <li><a href="#">Earrings</a></li>
                                                     <li><a href="#">Pendant</a></li>
@@ -239,9 +240,9 @@
                                                     <li><a href="#">Necklace Set</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#">About Us</a></li>
+                                            <li><a href="about.php">About Us</a></li>
                                             <li>
-                                                <a href="#">Special Collection <i class="ion-chevron-down"></i></a>
+                                                <a href="special.php">Special Collection <i class="ion-chevron-down"></i></a>
                                                 <ul class="sub_menu pages">
                                                     <li><a href="#">Gemstone</a></li>
                                                     <li><a href="#">Gold</a></li>
